@@ -226,6 +226,8 @@ h1.ending {
     .review {font-size:1.9rem;}
         .bottom-address, .card-group {margin-top: 5px;}
     .container.text-center {margin-top: 10px;}
+        .logo {margin-left:100px}
+    .navbar-nav.ml-auto.mt-2.mt-lg-0 {margin-right:100px;}
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
@@ -237,6 +239,8 @@ h1.ending {
     .review {font-size:2.2rem;}
     .bottom-address, .card-group {margin-top: 5px;}
     .container.text-center {margin-top: 13px;}
+    .logo {margin-left:150px}
+    .navbar-nav.ml-auto.mt-2.mt-lg-0 {margin-right:150px;}
 }
  
 /*
