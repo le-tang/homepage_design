@@ -10,9 +10,9 @@ body {
  	font-family: Avenir;
 	font-weight: 900;
 	color: #ffffff;
-	font-size:7rem;
+	font-size:2rem;
 	text-align: center;
-	margin-top: -310px;
+	margin-top: -120px;
  }
 
 .row {
@@ -64,10 +64,10 @@ a:active {
 }
 
 .body-icon {
-	max-width:30%;
+	max-width:20%;
     display: inline-flex;
     align-self: center;
-    padding: 8px 0px;
+    padding: 0px 0px;
 }
 
 .card-title { 
@@ -88,12 +88,6 @@ a:active {
 	padding: 10px;
 }
 
-.card.mb-3{
-	border: none;
-    padding-bottom: 0;
-    margin: 0;
-}
-
 .card-health {
     margin-top:5px;
 }
@@ -108,7 +102,7 @@ a:active {
 
 .review {
     font-family: Avenir;
-	font-size: 1.7rem;
+	font-size: 1.2rem;
 	text-align: center;
 	font-weight: 700;
     color: #fff;
@@ -116,7 +110,7 @@ a:active {
 
 .tenant {
 	font-family: Avenir;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	text-align:center;
 	padding: 0px;
     margin-top: -10px;
@@ -137,14 +131,6 @@ a:active {
   margin: 0 auto;
 }
 
-.custom-box1 {
-    margin-left: 80px;
-}
-
-.custom-box2 {
-    margin-right: 80px;
-}
-
 h4 {
     font-family: Avenir;
 	font-size: 1.2rem;
@@ -158,8 +144,8 @@ h4 {
 }
 
 .carousel.slide.mx-auto {
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
     max-width: 80%;
 }
 
@@ -169,7 +155,9 @@ h4 {
 
 .footer-pad {
     display: table;
-    margin: 2px auto 0 auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bottom {
@@ -186,12 +174,69 @@ h4 {
 h1.ending {
     font-family: Avenir;
 	font-weight: 900;
-	font-size:3.9rem;
+	font-size:2rem;
 	text-align: center;
 }
 
 .col-md-3.col-sm-6 {
     padding-top: 2%;
     padding-bottom: 2%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card.mb-3{
+	border: none;
+    padding-bottom: 0;
     margin-bottom: 0;
 }
+
+.bottom-address {
+    margin-top: 17px;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .title {font-size:3rem; margin-top:-240px;} /*1rem = 16px*/
+   h1.ending {font-size:2rem;} /*1rem = 16px*/
+  .custom-box1 {margin-left: 0px;}
+  .custom-box2 {margin-right: 0px;}
+    .body-icon {max-width:40%;}
+    .review {font-size:1.5rem;}
+    .tenant {font-size: 1rem;}
+    .bottom-address {margin-top: 11px;}
+    .container.text-center {margin-top: 5px;}
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .title {font-size:4rem; margin-top:-260px;} /*1rem = 16px*/
+   h1.ending {font-size:2.5rem;} /*1rem = 16px*/
+    .review {font-size:1.3rem;}
+    .body-icon {max-width:60%;}
+        .bottom-address {margin-top: 8px;}
+    .card-group {margin-top: 0px;}
+    .container.text-center {margin-top: 8px;}
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .title {font-size:5rem; margin-top:-280px;} /*1rem = 16px*/
+   h1.ending {font-size:3rem;} /*1rem = 16px*/
+    .review {font-size:1.9rem;}
+        .bottom-address, .card-group {margin-top: 5px;}
+    .container.text-center {margin-top: 10px;}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .title {font-size:6rem; margin-top:-295px;} /*1rem = 16px*/  
+   h1.ending {font-size:4rem;} /*1rem = 16px*/
+.custom-box1 {margin-left: 80px;}
+  .custom-box2 {margin-right: 80px;}
+    .review {font-size:2.2rem;}
+    .bottom-address, .card-group {margin-top: 5px;}
+    .container.text-center {margin-top: 13px;}
+}
+ 
+/*
