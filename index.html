@@ -88,7 +88,7 @@
                                       
                                       
 <div class="container-carousel flex-column p-4 ">
-    <div id="carouselContent " class="carousel slide mx-auto " data-ride="carousel ">
+    <div id="carousel-content " class="carousel slide mx-auto " data-ride="carousel ">
         <div class="carousel-inner " role="listbox ">
             <div class="carousel-item active text-center p-4 ">
                  <p class="review ">“I moved here because I wanted a quiet community for me and my family. It couldn’t have been a better choice.”</p>
@@ -103,15 +103,15 @@
             <div class="carousel-item text-center p-4 ">
                 
                 <p class="review ">“The staff and management here are extremely kind, approachable, and prompt in catering to my needs.”</p>
-                <p class="tenant ">— Sinjay, tenant of 2 years</p>
+                <p class="tenant ">— Sanjay, tenant of 2 years</p>
             </div>
         </div>
                                  
-        <a class="carousel-control-prev " href="#carouselContent " role="button " data-slide="prev ">
+        <a class="carousel-control-prev " href="#carousel-content " role="button " data-slide="prev ">
             <span class="carousel-control-prev-icon " aria-hidden="true "></span>
             <span class="sr-only ">Previous</span>
         </a>
-        <a class="carousel-control-next " href="#carouselContent " role="button " data-slide="next ">
+        <a class="carousel-control-next " href="#carousel-content " role="button " data-slide="next ">
             <span class="carousel-control-next-icon " aria-hidden="true "></span>
             <span class="sr-only ">Next</span>
         </a>
@@ -164,9 +164,20 @@ trinitysquareapts@gmail.com</p>
       </div>
     
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T " crossorigin="anonymous "></script>
+
+<script>
+    $(function(){
+        $('.carousel').carousel({
+            interval: 5000,
+            pause: false,
+            wrap: false,
+            keyboard: true
+        });
+    });
+</script>
                                           
   </body>
 
