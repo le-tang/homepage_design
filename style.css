@@ -1,0 +1,93 @@
+body {
+	font-family: Avenir;
+}
+
+.nav-item.active {
+ 	margin-left:20px;
+ }
+
+ .title {
+ 	font-family: Avenir;
+	font-weight: 900;
+	color: #ffffff;
+	font-size:7rem;
+	text-align: center;
+	margin-top: -295px;
+ }
+
+.row {
+	max-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.btn.btn-outline-secondary {
+ 	background-color: #CE2A19; /* Red */
+ 	border: none;
+ 	font-family: Avenir;
+ 	font-size: 13px;
+ 	display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+ }
+
+ #wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.body-icon {
+	max-width:30%;
+    display: inline-flex;
+    align-self: center;
+    padding: 8px 0px;
+}
+
+.card-title { 
+		font-family: Avenir;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 700;
+}
+
+.card-text {
+	font-family: Avenir;
+	font-size: 1rem;
+	text-align:center;
+	padding: 5px;
+}
+
+.card.border-0 {
+	padding: 20px;
+}
+
+.card {
+	border: none;
+}
